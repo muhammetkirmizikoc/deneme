@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    list-style: none;
+    text-decoration: none;
+    transition: all 400ms;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header .logo{
+    background-image: url(https://cdn1.iconfinder.com/data/icons/food-bakery-bread-house-confectionery/64/184_food-baker-bakery-chef-1024.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: lightblue;
+}
+header .text-7xl{
+    font-family: Agbalumo;
+}
+.box{
+    height: 25vh;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.renk{
+    filter: blur(0px);
+}
+.box-1{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/22/02/13/meat-1155132_1280.jpg);
+}
+.box-2{
+    background-image: url(https://images.unsplash.com/photo-1567121938596-6d9d015d348b?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.box-3{
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/18/18/40/salad-1603608_1280.jpg);
+}
+.box-4{
+    background-image: url(https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.box-5{
+    background-image: url(https://cdn.pixabay.com/photo/2020/04/27/11/49/ice-5099482_1280.jpg);
+}
+.block-1:hover , .block-2:hover{
+    transform: scale(.9);
+}

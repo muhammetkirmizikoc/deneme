@@ -1,0 +1,163 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3e3e3e;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+header .menu-baslik {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+    background-color: rgba(232, 232, 232, 0.407);
+    backdrop-filter: blur(40px);
+    position: fixed;
+    z-index: 100;
+    height: 10vh;
+}
+
+header .menu-baslik li {
+    width: 90%;
+    height: 7vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu-baslik li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(74, 74, 74);
+}
+
+header .menu-bas {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 10vh;
+    background-color: rgba(88, 88, 88, 0.265);
+    backdrop-filter: blur(40px);
+    position: fixed;
+    z-index: 100;
+}
+
+header .menu-bas li {
+    width: 33%;
+    margin: 0 auto;
+}
+
+header .menu-bas li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3e3e3e;
+    font-size: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    padding: 20px;
+}
+header .menu-bas li a:hover {
+    background-color: #de8b0ea8;
+}
+
+/* menu bitiş */
+.menu-box {
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .menu-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-list {
+    margin-bottom: 30px;
+    border-bottom: 1px dotted #ccc;
+  }
+  
+  .menu-list__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu-list__items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-list__item {
+    margin-bottom: 20px;
+  }
+  
+  .menu-list__item-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .item_title {
+    flex-grow: 1;
+  }
+  
+  .dots {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fa000000;
+    margin: 0 10px;
+  }
+  
+  .menu-list__item-price {
+    font-size: 18px;
+  }
+  
+  .menu-list__item-desc {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+
+.menu {
+    width: 100%;
+    /*background-color: #f5d8aa;*/
+    background-color: lightgoldenrodyellow;
+}
+
+.icecek {
+    background-color: lightblue;
+}
+
+.tatli {
+    width: 100%;
+    height: 110vh;
+    background-color: lightcoral;
+}
